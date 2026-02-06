@@ -1,20 +1,20 @@
-Insurance Premium and Risk Analysis
+## Insurance Premium and Risk Analysis
 
 End-to-End Data Analytics Project (Python | SQL | Power BI)
 
 
+--- 
 
-
-Project Overview:
+## Project Overview:
 
 This project analyzes medical insurance customer data to identify the key factors influencing insurance premiums and customer risk levels. The objective is to support insurance companies in making data-driven decisions related to pricing, risk segmentation, and profitability improvement.
 
 The analysis uses Python for data processing, SQL for analytical queries, and Power BI for visualization.
 
 
+---
 
-
-Business Objectives:
+## Business Objectives:
 
 Identify key factors that increase insurance charges
 
@@ -25,9 +25,9 @@ Analyze the impact of age, BMI, smoking, children, gender, and region
 Support better premium pricing and risk management decisions
 
 
+---
 
-
-Dataset Description:
+## Dataset Description:
 
 The dataset contains 1,337 insurance customers with the following fields:
 
@@ -48,9 +48,9 @@ Insurance Charges
 Note: This repository contains analytical outputs only. The original dataset is confidential and not included.
 
 
+---
 
-
-Data Cleaning and Preparation (Python):
+## Data Cleaning and Preparation (Python):
 
 Removed duplicate records
 
@@ -65,9 +65,9 @@ Ensured consistency in categorical variables
 Note:
 Outliers were intentionally retained as they represent genuine high-cost customers critical for insurance risk analysis.
 
+---
 
-
-Feature Engineering
+## Feature Engineering
 
 New features were created to enhance analysis and segmentation:
 
@@ -91,9 +91,9 @@ Age group analysis of premiums
 
 Identification of high-cost customers
 
+---
 
-
-SQL Analysis (Business Questions)
+## SQL Analysis (Business Questions)
 
 SQL queries were written to answer business-driven questions:
 
@@ -116,9 +116,9 @@ CASE statements
 Window functions
 
 
+---
 
-
-Power BI Dashboard:
+## Power BI Dashboard:
 
 An interactive Power BI dashboard was built to present insights clearly.
 
@@ -139,9 +139,9 @@ Top 10 high-premium customers
 Interactive slicers (Risk Level, Smoking Status, Region, Gender)
 
 
+---
 
-
-Key Insights:
+## Key Insights:
 
 Smokers pay nearly 4× higher insurance charges than non-smokers
 
@@ -166,9 +166,10 @@ Focus marketing on high-revenue regions
 Design specialized plans for high-risk customers
 
 
+---
 
-
-Project Structure:
+## Project Structure:
+```
 insurance-premium-risk-analysis/
 │
 ├── python-analysis/
@@ -188,11 +189,11 @@ insurance-premium-risk-analysis/
 │   └── insurance_project_report.pdf
 │
 └── README.md
+```
 
+---
 
-
-
-Tools and Technologies Used:
+## Tools and Technologies Used:
 
 Python (Pandas, NumPy, Matplotlib, Seaborn)
 
@@ -202,16 +203,18 @@ Power BI
 
 GitHub
 
+---
 
-
-Conclusion:
+## Conclusion:
 
 This project demonstrates a complete end-to-end data analytics workflow that transforms raw insurance data into meaningful business insights. The results help improve pricing strategies, risk management, and long-term profitability.
 
+---
 
-
-Author
-
+## Author
+```
 Shridhar Mane
 Aspiring Data Analyst
 Python | SQL | Power BI
+
+```
